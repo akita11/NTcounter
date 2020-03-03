@@ -46,9 +46,9 @@
 
 1. プリント基板NTcounterRXに部品をとりつけます。（※M5Stackコネクタのオス・メスを取り付ける面を間違えないように注意。M5Stack本体(M5Core)に差し込んだ状態でシルク文字が外から見える向き）
 2. VSCodeでNTcounerRX内のファームウエアの以下の箇所を自分の環境に合わせて修正します。
-> #define DEV_NAME "NTcounter" ← デバイス名。ログファイルの冒頭に記録される
-> const char* ssid       = "****"; ← 起動時に接続するWiFiアクセスポイントのSSID
-> const char* password   = "****"; ← 同パスワード
+-- #define DEV_NAME "NTcounter" ← デバイス名。ログファイルの冒頭に記録される
+-- const char* ssid       = "****"; ← 起動時に接続するWiFiアクセスポイントのSSID
+-- const char* password   = "****"; ← 同パスワード
 3. ファームウエアをビルドして書き込みます。
 4. アクリル板(厚さ5mm)をNTcounterRX_spaccer.svgのようにレーザーカッター等でカットします。
 5. M5StackのCore、1.とスペーサ、M5Stackバッテリユニット、、M5Stack底板を順にとりつけます。
