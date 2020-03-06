@@ -7,7 +7,7 @@
 - [ATtiny10](http://akizukidenshi.com/catalog/g/gI-04575/)
 - [nMOS](http://akizukidenshi.com/catalog/g/gI-06051/)
 - [赤外線LED](http://akizukidenshi.com/catalog/g/gI-12612/)
-- [USB Type-Cコネクタ](http://akizukidenshi.com/catalog/g/gC-14356/)
+- USB Type-Cコネクタ (a)http://www.aitendo.com/product/17279 または (b)http://akizukidenshi.com/catalog/g/gC-14356/
 - チップ抵抗 5.1kΩ(1608)×2個、1kΩ(1608)×1個
 - チップLED 緑(1608)×1個
 - プリント基板 NTcounterTX
@@ -34,12 +34,13 @@
 
 ## 送信機
 
-1. プリント基板NTcounterTXに部品をとりつけ、ファームウエアNTcounterTX.hexを書き込みます。(NTcounterTX.inoをArduinoIDEからコンパイルして書き込んでもOK。（参考: [ArduinoIDEでATtiny10を開発・書き込み ](https://make.kosakalab.com/make/electronic-work/arduino-ide/arduino_tpi/)
-2. MDF板(厚さ6mm)にNTcounerTX_lens.svgの右側の部品をレーザーカッター等でカットし、1.を固定します。
+1. プリント基板NTcounterTXに部品をとりつけます。USB Type-Cコネクタとして(a)を用いる場合はCN4に、(b)を使う場合はCN2にとりつけます。なおCN4につける(a)の方がはんだ付けはしやすいです。
+2. 、ファームウエアNTcounterTX.hexを書き込みます。(NTcounterTX.inoをArduinoIDEからコンパイルして書き込んでもOK。（参考: [ArduinoIDEでATtiny10を開発・書き込み ](https://make.kosakalab.com/make/electronic-work/arduino-ide/arduino_tpi/)
+3. MDF板(厚さ6mm)にNTcounerTX_lens.svgの右側の部品をレーザーカッター等でカットし、1.を固定します。
 <img src="https://github.com/akita11/NTcounter/blob/master/NTcounterTX1.jpg" width="320px">
-3. 厚紙にNTcounerTX_lens.svgの左側の部品をレーザーカッター等でカットします。
+4. 厚紙にNTcounerTX_lens.svgの左側の部品をレーザーカッター等でカットします。このとき、用いるUSB-Cコネクタが(a)の場合と(b)の場合で少し加工データが異なるので、NTcounerTX_lens.svgを適宜修正してください。
 <img src="https://github.com/akita11/NTcounter/blob/master/NTcounterTX2.jpg" width="320px">
-4. 100均ルーペの2倍を、取っ手を外して、1.とともに、2.で囲って固定します。
+5. 100均ルーペの2倍を、取っ手を外して、1.とともに、2.で囲って固定します。
 <img src="https://github.com/akita11/NTcounter/blob/master/NTcounterTX3.jpg" width="240px">
 
 ## 受信機
