@@ -12,7 +12,7 @@
 - チップLED 緑(1608)×1個
 - プリント基板 NTcounterTX
 - [100均ルーペNo.13058]（セリア等で売っているようです）
-<img src="https://github.com/akita11/NTcounter/blob/master/NTcounerTX/loupe.jpg" width="240px">
+<img src="https://github.com/akita11/NTcounter/blob/master/NTcounterTX/loupe.jpg" width="240px">
 - 厚紙
 - MDF板(厚さ6mm) ※アクリル板(厚さ5mm)でもOK
 - USBモバイルバッテリ等の電源と、それをつなぐUSB Type-C等のケーブル
