@@ -11,7 +11,8 @@
 - チップ抵抗 5.1kΩ(1608)×2個、1kΩ(1608)×1個
 - チップLED 緑(1608)×1個
 - プリント基板 NTcounterTX
-- [100均ルーペNo.13058](http://bdens.com/100kin/post-542/)
+- [100均ルーペNo.13058]（セリア等で売っているようです）
+<img src="https://github.com/akita11/NTcounter/blob/master/NTcounerTX/loupe.jpg" width="240px">
 - 厚紙
 - MDF板(厚さ6mm) ※アクリル板(厚さ5mm)でもOK
 - USBモバイルバッテリ等の電源と、それをつなぐUSB Type-C等のケーブル
@@ -40,7 +41,7 @@
 <img src="https://github.com/akita11/NTcounter/blob/master/NTcounterTX1.jpg" width="320px">
 4. 厚紙にNTcounerTX_lens.svgの左側の部品をレーザーカッター等でカットします。このとき、用いるUSB-Cコネクタが(a)の場合と(b)の場合で少し加工データが異なるので、NTcounerTX_lens.svgを適宜修正してください。
 <img src="https://github.com/akita11/NTcounter/blob/master/NTcounterTX2.jpg" width="320px">
-5. 100均ルーペの2倍を、取っ手を外して、1.とともに、2.で囲って固定します。
+5. 100均ルーペの3倍を、取っ手を外して、1.とともに、2.で囲って固定します。
 <img src="https://github.com/akita11/NTcounter/blob/master/NTcounterTX3.jpg" width="240px">
 
 ## 受信機
